@@ -1,0 +1,283 @@
+/************************************* Root */
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+
+}
+/*********************************** Navbar */
+#arkaplan{
+background:rgb(109, 186, 250);
+width: 100%;
+}
+.navbar-nav>.nav-link{
+color:white;
+}
+.navbar-nav>.nav-link:hover{
+border-bottom: 1px solid rgb(228, 156, 1);
+color: rgb(228, 156, 1);
+}
+.cizgi{
+border:1px solid black;
+}
+/************************* Main  Stay Curios*/
+#container-fluid{
+ background:rgb(109, 186, 250);
+ width: 100%;
+ height:80vh;
+}
+#bold{
+margin-top:1em;
+font-size:4rem;
+font-family:'Times New Roman', Times, serif;
+font-weight:bolder;
+margin-left:2em;
+}
+#italic{
+font-size: medium;
+font-weight:normal;
+font-style: italic;
+font-family:sans-serif;
+margin-left:8em;
+overflow:initial;
+} 
+.img-fluid{
+margin-top:2rem;
+justify-content: center;
+align-items: center;
+}
+
+.button{
+justify-content: center;
+align-items: center;
+margin-top: auto;
+margin-left: 8em;
+border: 3px solid rgb(228, 156, 1);
+background-color: transparent;
+width:10em;
+height:3em;
+border-radius: 5px;
+}
+.button:hover{
+color:rgb(0, 0, 0) ;
+background-color:rgb(228, 156, 1) ;
+transition:0.4s;
+}
+
+/****************** Trending in Medium */
+
+.link-grey {
+ color: #aaa;
+ } 
+.link-grey:hover {
+ color: #00913b; 
+}
+
+#bi{
+margin-left:2.2em;
+}
+
+
+/*******************************Card */
+.our{
+    background-color: rgb(109, 186, 250);
+    
+}
+.card-btn{
+justify-content: center;
+align-items: center;
+margin-left:5em;
+border: 3px solid rgb(228, 156, 1);
+background-color: transparent;
+width:10rem;
+height:3rem;
+border-radius:1px;
+text-decoration: none;
+color: black;
+}
+.card-btn:hover{
+color:rgb(0, 0, 0) ;
+background-color:rgb(228, 156, 1) ;
+transition:0.4s all ease-in-out;
+}
+/************************* Login Start */
+#row{
+    background: rgb(109, 186, 250);
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+    }
+    img{
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    
+    }
+    .btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(228, 156, 1);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    }
+    .btn1:hover{
+    background-color:black;
+    color: white;
+    }
+    .register{
+    text-decoration-color:red;
+    color:red;
+    }
+    /******************** Register  Page */
+   #container-fluid{
+    background-color:rgb(109, 186, 250);
+    }
+    #yazi{
+        width:100%;
+        font-size:25px;
+        color:#000000;
+        
+        
+    }
+
+    .gradient-custom-2 {
+        /* fallback for old browsers */
+        background: #fbc2eb;
+        
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+        
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+        }
+
+        /************************Write  */
+#write{
+background-color: rgb(109, 186, 250);
+}
+
+/******************************* MOBİLE */
+@media only screen and (max-width: 600px){
+    /* Navbar */
+    #arkaplan{
+    background:rgb(243, 105, 105);
+    }
+    #container-fluid{
+        background:rgb(243, 105, 105);
+        width: 100%;
+        height:80vh;
+        
+       }
+    .container-fluid >.navbar-brand{
+    color:white;
+    font-size: medium;
+    font-weight: bold;
+    }
+    .container-fluid>.navbar-brand:hover{
+    color:black;
+    }
+    .navbar-brand>.bi{
+    color:white;
+    font-size: large;
+    }
+    .navbar-brand>.bi:hover{
+    color:black;
+    }
+    .navbar-nav>.nav-link:hover{
+    border-bottom: 3px solid rgb(228, 156, 1);
+    transition: 0.5s all ease-in-out; 
+    }
+    /**************** Stay Curios Section */
+    #bold{
+    font-size:2rem;
+    flex-direction: column;
+    }
+    #italic{
+    font-size: small;
+    font-weight:lighter;
+    margin-left:5em;
+    }
+    .button{
+    margin-left:4em;
+    }
+    .button:hover{
+    color:rgb(0, 0, 0) ;
+    background-color:rgb(228, 156, 1) ;
+    transition:0.4s all ease-in-out;
+    }
+    /*************** Trending in Medium */
+    #bi
+    {
+    color:red;
+    }
+    /*********************Cards button  */
+    .our{
+        background-color: rgb(243, 105, 105);
+        
+    }
+    #bi1{
+        margin-left:2.5em;
+        color:rgb(109, 186, 250);
+        justify-content: center;
+        align-items: center;
+    }
+    .card-btn{
+        justify-content: center;
+        align-items: center;
+        margin-left:5em;
+        border: 3px solid rgb(228, 156, 1);
+        background-color: transparent;
+        width:10rem;
+        height:3rem;
+        border-radius:1px;
+        text-decoration: none;
+        color: black;
+        }
+        .card-btn:hover{
+        color:rgb(0, 0, 0) ;
+        background-color:rgb(228, 156, 1) ;
+        transition:0.4s all ease-in-out;
+        }
+    /*************************** Login */
+    #row{
+        background: rgb(243, 105, 105);
+        border-radius: 30px;
+        box-shadow: 12px 12px 22px grey;
+        }
+    img{
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    
+    }
+    #bii{
+    justify-content: center;
+    align-items: center;
+    color:white;
+    }
+    #sign{
+    font-size:small;
+    font-weight: lighter;
+    }
+    .btn1{
+        border: none;
+        outline: none;
+        height: 50px;
+        width: 100%;
+        background-color: rgb(179, 253, 249);
+        color: rgb(0, 0, 0);
+        border-radius: 4px;
+        font-weight: bold;
+        }
+        .btn1:hover{
+        background-color:rgb(228, 156, 1) ;
+        color: white;
+        }
+
+}
+@media only screen and (max-width: 600px){
+#resim{
+width: 300px;
+margin-left:3em;
+}
+}
